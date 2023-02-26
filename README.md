@@ -1,22 +1,28 @@
 # Análises em DataBase
-Exemplos de análises em Banco de Dados. Select, Order By, Where, Join, Procedures, etc
+
+Neste repositório venho demonstrar um pouco das minhas habilidades em SQL e Banco de Dados com exemplos de análises como: Select, Order By, Where, Join, Procedures, etc
 
 
 
-** -- Exemplo: 1 SELECT * **
+-- Exemplo: 1 SELECT * 
+
 SELECT * FROM clientes;
 SELECT * FROM pedidos;
 
 -- Exemplo 2: SELECT FROM
+
 SELECT nome, sobrenome, email FROM clientes;
 
 -- Exemplo 3: SELECT AS
+
 SELECT Data_venda AS 'Data da Venda', id_produto AS 'ID do Produto', qtd_vendida AS 'Quantidade Vendida' FROM pedidos;
 
 -- Exemplo 4: SELECT LIMIT
+
 SELECT * FROM pedidos LIMIT 20;
 
 -- ORDER BY
+
 -- Exemplo 1: Faça uma consulta na tabela de clientes e faça uma ordenação 
 -- de acordo com o nome do cliente, em ordem alfabética; 
 
