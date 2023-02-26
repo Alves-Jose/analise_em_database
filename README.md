@@ -3,7 +3,7 @@ Exemplos de análises em Banco de Dados. Select, Order By, Where, Join, Procedur
 
 
 
--- Exemplo: 1 SELECT *
+** -- Exemplo: 1 SELECT * **
 SELECT * FROM clientes;
 SELECT * FROM pedidos;
 
